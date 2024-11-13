@@ -1,3 +1,35 @@
 body{
-	font-family: 'Courier New', Courier, monospace;
+	background-color: #1E1E1E;
+}
+.heading{
+	background-color: #EFEFEF;
+}
+h1{
+	font-family: 'NeueBit';
+	font-weight: bold;
+	font-size: 110px;
+	text-transform: uppercase;
+	color: #1E1E1E;
+}
+h4{
+	font-family: 'NeueBit';
+	font-weight: bold;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #1E1E1E;
+}
+.publishyear{
+	font-size: 100px;
+	font-family: 'NeueBit';
+	font-weight: bold;
+	margin-top: -20px;
+	margin-bottom: -70px;
+	color: #00FFBC;
+}
+
+@font-face {
+	font-family: 'NeueBit';
+	src: url('/fonts/NeueBit-Bold.woff2) format('woff2'),
+		url('/fonts/NeueBit-Bold.woff') format('woff');
+		 font-weight: bold;
 }
