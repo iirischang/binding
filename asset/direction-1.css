@@ -157,6 +157,41 @@ h2{
 	transform: translateY(-30px) translateX(30px);
 }
 
+.stickynote-4{
+	background-color: #EFEFEF;
+	color: #1E1E1E;
+	color:#1E1E1E;
+	font-family: 'NeueBit';
+	font-weight: bold;
+	padding: 20px;
+	width: 300px;
+	height: 220px;
+	transform: translateY(-60px) translateX(60px);
+}
+
+.stickynote-5{
+	background-color: #00FFBC;
+	color: #1E1E1E;
+	color:#1E1E1E;
+	font-family: 'NeueBit';
+	font-weight: bold;
+	padding: 20px;
+	width: 300px;
+	height: 180px;
+	transform: translateY(-70px) translateX(20px);
+}
+
+.stickynote-6{
+	background-color: #EFEFEF;
+	color: #1E1E1E;
+	color:#1E1E1E;
+	font-family: 'NeueBit';
+	font-weight: bold;
+	padding: 20px;
+	width: 300px;
+	height: 180px;
+	transform: translateY(-90px) translateX(60px);
+}
 @font-face {
 	font-family: 'NeueBit';
 	src: url('/fonts/NeueBit-Bold.woff2) format('woff2'),
