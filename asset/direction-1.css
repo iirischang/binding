@@ -92,15 +92,69 @@ p{
 .subtitle{
 	background-color: #00FFBC;
 	margin-bottom: 20px;
+	position: sticky;
 }
 h2{
 	padding: 0;
-	font-size: 200px;
+	font-size: 90px;
 	color:#1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
-	font-size: 90px;
 	text-transform: uppercase;
+}
+
+.stickynote-1{
+	background-color: #00FFBC;
+	color: #1E1E1E;
+	color:#1E1E1E;
+	font-family: 'NeueBit';
+	font-weight: bold;
+	padding: 20px;
+	width: 300px;
+	margin-top: 30px;
+}
+
+.name{
+	color:#1E1E1E;
+	font-size: 40px;
+}
+
+.answers{
+	color: #1E1E1E;
+	font-family: 'NeueBit';
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1;
+}
+
+.account{
+	color:#1E1E1E;
+	font-size: 20px;
+	text-align: right;
+}
+
+.stickynote-2{
+	background-color: #EFEFEF;
+	color: #1E1E1E;
+	color:#1E1E1E;
+	font-family: 'NeueBit';
+	font-weight: bold;
+	padding: 20px;
+	width: 300px;
+	height: 180px;
+	transform: translateY(-10px) translateX(80px);
+}
+
+.stickynote-3{
+	background-color: #00FFBC;
+	color: #1E1E1E;
+	color:#1E1E1E;
+	font-family: 'NeueBit';
+	font-weight: bold;
+	padding: 20px;
+	width: 300px;
+	height: 180px;
+	transform: translateY(-30px) translateX(30px);
 }
 
 @font-face {
