@@ -89,7 +89,7 @@ p{
 	background-color: #00FFBC;
 	margin-bottom: 20px;
 	position: sticky;
-	top: 43px;
+	top: 0;
 	padding: 0;
 	margin: 0;
 }
@@ -126,7 +126,7 @@ h2{
 .stickynote-1{
 	position: sticky;
 	z-index: 1;
-	top: 70px;
+	top: 0px;
 	background-color: #00FFBC;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
@@ -137,7 +137,7 @@ h2{
 .stickynote-2{
 	position: sticky;
 	z-index: 2;
-	top: 120px;
+	top: 30px;
 	background-color: #EFEFEF;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
@@ -148,7 +148,7 @@ h2{
 .stickynote-3{
 	position: sticky;
 	z-index: 3;
-	top:170px;
+	top:60px;
 	background-color: #00FFBC;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
@@ -159,7 +159,7 @@ h2{
 .stickynote-4{
 	position: sticky;
 	z-index: 4;
-	top:200px;
+	top:90px;
 	background-color: #EFEFEF;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
@@ -170,7 +170,7 @@ h2{
 .stickynote-5{
 	position: sticky;
 	z-index: 5;
-	top: 240px;
+	top: 120px;
 	background-color: #00FFBC;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
@@ -181,7 +181,7 @@ h2{
 .stickynote-6{
 	position: sticky;
 	z-index: 6;
-	top: 280px;
+	top: 150px;
 	background-color: #EFEFEF;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
@@ -190,6 +190,9 @@ h2{
 	margin-bottom: -60px;
 }
 
+.stickydown{
+	margin-top: 90px;
+}
 h4{
 	background-color: #00FFBC;
 	color: #1E1E1E;
