@@ -28,6 +28,12 @@ h4{
 	line-height: 0.3;
 }
 
+.intro{
+	font-style: italic;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
 p{
 	font-family: 'azo-sans-web';
 	color: #1E1E1E;
@@ -66,4 +72,86 @@ p{
 	padding-top: 2px;
 	position: sticky;
 	top:0;
+}
+
+.feedback-section{
+	position: relative;
+	margin-top: 20px;
+}
+.name{
+	color:#EFEFEF;
+	font-size: 30px;
+}
+
+.answers{
+	color: #EFEFEF;
+	font-family: 'typeka';
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.account{
+	color:#c7ff00;
+	font-size: 20px;
+	text-align: right;
+}
+
+.stickynote-1{
+	position: sticky;
+	z-index: 1;
+	top: 0px;
+	background-color: #1E1E1E;
+	color: #1E1E1E;
+	font-family: 'typeka';
+	padding: 20px;
+}
+
+.stickynote-2{
+	position: sticky;
+	z-index: 2;
+	top: 0px;
+	background-color: #1E1E1E;
+	color: #1E1E1E;
+	font-family: 'typeka';
+	padding: 20px;
+}
+
+.stickynote-3{
+	position: sticky;
+	z-index: 3;
+	top: 0px;
+	background-color: #1E1E1E;
+	color: #1E1E1E;
+	font-family: 'typeka';
+	padding: 20px;
+}
+
+.stickynote-4{
+	position: sticky;
+	z-index: 4;
+	top: 0px;
+	background-color: #1E1E1E;
+	color: #1E1E1E;
+	font-family: 'typeka';
+	padding: 20px;
+}
+
+.stickynote-5{
+	position: sticky;
+	z-index: 5;
+	top: 0px;
+	background-color: #1E1E1E;
+	color: #1E1E1E;
+	font-family: 'typeka';
+	padding: 20px;
+}
+
+.stickynote-6{
+	position: sticky;
+	z-index: 6;
+	top: 0px;
+	background-color: #1E1E1E;
+	color: #1E1E1E;
+	font-family: 'typeka';
+	padding: 20px;
 }
