@@ -211,7 +211,7 @@ h5{
 	color: #00FFBC;
 	font-family: 'NeueBit';
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -236,6 +236,24 @@ h6{
 	transform: rotate(-3deg);
 	background-color: #00FFBC;
 	color:#1E1E1E;
+}
+
+.problems{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	color: #1E1E1E;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.problem{
+	color: #1E1E1E;
+	background-color: #EFEFEF;
+	font-family: 'NeueBit';
+	font-size: 35px;
+	line-height: 30px;
+	padding: 10px;
 }
 
 @font-face {
