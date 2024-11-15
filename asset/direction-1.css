@@ -28,15 +28,15 @@ h4{
 	color: #1E1E1E;
 }
 .publishyear{
-	font-size: 100px;
+	font-size: 90px;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	margin-top: -20px;
 	margin-bottom: -70px;
-	color: #00FFBC;
+	color: #1E1E1E;
 	line-height: 0.7;
 	text-align: right;
-	transform: rotate(90deg)translateY(-150px) translateX(-110px);
+	transform: rotate(90deg)translateY(-145px) translateX(-105px);
 }
 
 p{
@@ -97,28 +97,19 @@ p{
 	background-color: #00FFBC;
 	margin-bottom: 20px;
 	position: sticky;
-	height: 180px;
+	top:0px;
 }
 h2{
 	padding: 0;
-	font-size:80px;
+	font-size:50px;
 	color:#1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	text-transform: uppercase;
 }
-
-.stickynote-1{
-	background-color: #00FFBC;
-	color: #1E1E1E;
-	color:#1E1E1E;
-	font-family: 'NeueBit';
-	font-weight: bold;
-	padding: 20px;
-	width: 300px;
-	margin-top: 30px;
+.feedback-section{
+	position: relative;
 }
-
 .name{
 	color:#1E1E1E;
 	font-size: 40px;
@@ -138,10 +129,25 @@ h2{
 	text-align: right;
 }
 
+.stickynote-1{
+	position: sticky;
+	z-index: 1;
+	top: 80px;
+	background-color: #00FFBC;
+	color: #1E1E1E;
+	font-family: 'NeueBit';
+	font-weight: bold;
+	padding: 20px;
+	width: 300px;
+	margin-top: 30px;
+}
+
 .stickynote-2{
+	position: sticky;
+	z-index: 2;
+	top: 120px;
 	background-color: #EFEFEF;
 	color: #1E1E1E;
-	color:#1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
@@ -151,9 +157,11 @@ h2{
 }
 
 .stickynote-3{
+	position: sticky;
+	z-index: 3;
+	top:130px;
 	background-color: #00FFBC;
 	color: #1E1E1E;
-	color:#1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
@@ -163,21 +171,25 @@ h2{
 }
 
 .stickynote-4{
+	position: sticky;
+	z-index: 4;
+	top:170px;
 	background-color: #EFEFEF;
 	color: #1E1E1E;
-	color:#1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
 	width: 300px;
-	height: 220px;
+	height: 250px;
 	transform: translateY(-60px) translateX(60px);
 }
 
 .stickynote-5{
+	position: sticky;
+	z-index: 5;
+	top: 200px;
 	background-color: #00FFBC;
 	color: #1E1E1E;
-	color:#1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
@@ -187,9 +199,11 @@ h2{
 }
 
 .stickynote-6{
+	position: sticky;
+	z-index: 6;
+	top: 230px;
 	background-color: #EFEFEF;
 	color: #1E1E1E;
-	color:#1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
@@ -198,6 +212,21 @@ h2{
 	transform: translateY(-90px) translateX(60px);
 	margin-bottom: -60px;
 }
+
+h4{
+	background-color: #00FFBC;
+	color: #1E1E1E;
+	font-family: 'NeueBit';
+}
+
+h5{
+	color: #00FFBC;
+	font-family: 'NeueBit';
+	font-weight: bold;
+	font-size: 50px;
+	padding-top: 10px;
+}
+
 @font-face {
 	font-family: 'NeueBit';
 	src: url('/fonts/NeueBit-Bold.woff2) format('woff2'),
