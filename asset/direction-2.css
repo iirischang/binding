@@ -1,7 +1,7 @@
 body{
 	margin-left: 10px;
 	margin-right: 10px;
-	background-color: #00FFBC;
+	background-color: #00ffbc;
 }
 
 .heading{
@@ -18,14 +18,16 @@ h1{
 h4{
 	font-family: 'typeka';
 	font-size: 20px;
-	color: #00FFBC;
-	background-color: #1E1E1E;
+	color: #1E1E1E;
+	background-color: #EFEFEF;
 }
 .publishyear{
 	font-size: 30px;
 	font-family: 'typeka';
 	color: #1E1E1E;
 	line-height: 0.3;
+	padding-top: 3px;
+	padding-bottom: 10px;
 }
 
 .intro{
@@ -45,11 +47,12 @@ p{
 .quotesection{
 	background-color: #EFEFEF;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	padding: 20px;
 	font-family: 'typeka';
 	font-weight: bold;
-	font-size: 20px;
-	line-height: 35px;
+	font-size: 18px;
+	line-height: 30px;
 }
 
 .mark-1{
@@ -64,7 +67,7 @@ p{
 	font-family: 'typeka';
 	font-size: 30px;
 	border-bottom: 3px solid #1E1E1E;
-	background-color: #00FFBC;
+	background-color: #00ffbc;
 	color: #1E1E1E;
 	margin-bottom: 20px;
 	padding-right: 10px;
@@ -91,7 +94,7 @@ p{
 }
 
 .account{
-	color:#00FFBC;
+	color:#00ffbc;
 	font-size: 20px;
 	text-align: right;
 }
@@ -178,4 +181,29 @@ h6{
 	transform: rotate(-3deg);
 	background-color: #1E1E1E;
 	color: #00FFBC;
+}
+
+.problems{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	color: #1E1E1E;
+	margin-top: 10px;
+}
+
+.problems-2{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	color: #EFEFEF;
+	margin-top: -20px;
+}
+
+.problem{
+	color: #EFEFEF;
+	background-color: #1E1E1E;
+	font-family: 'typeka';
+	font-size: 20px;
+	line-height: 30px;
+	padding: 10px;
 }
