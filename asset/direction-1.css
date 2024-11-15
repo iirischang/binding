@@ -1,5 +1,7 @@
 body{
 	background-color: #1E1E1E;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 .heading{
 	background-color: #EFEFEF;
@@ -7,11 +9,12 @@ body{
 	overflow: hidden;
 	padding-left: 0;
 	margin: 0;
+	height: 290px;
 }
 h1{
 	font-family: 'NeueBit';
 	font-weight: bold;
-	font-size: 120px;
+	font-size: 115px;
 	text-transform: uppercase;
 	color: #1E1E1E;
 	text-align: left;
@@ -41,6 +44,7 @@ p{
 	color: #EFEFEF;
 	font-size: 15px;
 	line-height: 1.5;
+	margin-top: 30px;
 }
 
 .intro{
@@ -73,7 +77,7 @@ p{
 	font-family: 'NeueBit';
 	font-weight: bold;
 	margin: auto;
-	margin-bottom: -110px;
+	margin-bottom: -140px;
 	text-align: left;
 	margin-top: 10px;
 	line-height: 0.8;
@@ -83,8 +87,8 @@ p{
 	color: #00FFBC;
 	font-family: 'NeueBit';
 	font-weight: bold;
-	margin: auto;
-	margin-bottom: -70px;
+	margin-top: -30px;
+	margin-bottom: -120px;
 	text-align: right;
 	line-height: 0.8;
 }
@@ -93,10 +97,11 @@ p{
 	background-color: #00FFBC;
 	margin-bottom: 20px;
 	position: sticky;
+	height: 180px;
 }
 h2{
 	padding: 0;
-	font-size: 90px;
+	font-size:80px;
 	color:#1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
@@ -142,7 +147,7 @@ h2{
 	padding: 20px;
 	width: 300px;
 	height: 180px;
-	transform: translateY(-10px) translateX(80px);
+	transform: translateY(-10px) translateX(60px);
 }
 
 .stickynote-3{
@@ -191,6 +196,7 @@ h2{
 	width: 300px;
 	height: 180px;
 	transform: translateY(-90px) translateX(60px);
+	margin-bottom: -60px;
 }
 @font-face {
 	font-family: 'NeueBit';
