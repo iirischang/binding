@@ -94,6 +94,18 @@ p{
 	top:0;
 }
 
+.subtitle-3{
+	font-family: 'mencken-std-head-narrow';
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+	background-color: #EFEFEF;
+	color: #1E1E1E;
+	padding-bottom: 50px;
+	position: sticky;
+	top:0;
+}
+
 .subnumber{
 	color: #1E1E1E;
 	border-bottom: 3px solid #1E1E1E;
@@ -185,12 +197,14 @@ h5{
 	font-family: 'mencken-std-head-narrow';
 	font-size: 40px;
 	background-color: #e0ff00;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 h6{
-	background-color: #EFEFEF;
-	color: #1E1E1E;
-	font-family: 'typeka';
+	background-color: #1E1E1E;
+	color: #e0ff00;
+	font-family: 'mencken-std-head-narrow';
 	padding: 10px;
 	font-size: 15px;
 	font-weight: bold;
@@ -200,30 +214,31 @@ h6{
 }
 .h6-2{
 	transform: rotate(-3deg);
-	background-color: #1E1E1E;
-	color: #00FFBC;
+	background-color: #e0ff00;
+	color: #1E1E1E;
 }
 
 .problems{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 10px;
+	gap: 20px;
 	color: #1E1E1E;
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .problems-2{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 10px;
+	gap: 20px;
 	color: #EFEFEF;
-	margin-top: -20px;
+	margin-bottom: 20px;
 }
 
 .problem{
 	color: #EFEFEF;
 	background-color: #1E1E1E;
-	font-family: 'typeka';
+	font-family: 'mencken-std-head-narrow';
 	font-size: 20px;
 	line-height: 30px;
 	padding: 10px;
