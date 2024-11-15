@@ -1,0 +1,69 @@
+body{
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #c7ff00;
+}
+
+.heading{
+}
+
+h1{
+	font-family: 'typeka';
+	font-size: 80px;
+	color:#1E1E1E;
+	text-align: left;
+	padding: 0;
+	line-height: 1;
+}
+h4{
+	font-family: 'typeka';
+	font-size: 20px;
+	color: #c7ff00;
+	background-color: #1E1E1E;
+}
+.publishyear{
+	font-size: 30px;
+	font-family: 'typeka';
+	color: #1E1E1E;
+	line-height: 0.3;
+}
+
+p{
+	font-family: 'azo-sans-web';
+	color: #1E1E1E;
+	font-size: 15px;
+	line-height: 1.5;
+	margin-top: 30px;
+}
+
+.quotesection{
+	background-color: #EFEFEF;
+	margin-top: 20px;
+	padding: 20px;
+	font-family: 'typeka';
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.mark-1{
+	display: none;
+}
+
+.mark-2{
+	display: none;
+}
+
+.subtitle{
+	font-family: 'typeka';
+	font-size: 35px;
+	border-bottom: 3px solid #1E1E1E;
+	background-color: #c7ff00;
+	color: #1E1E1E;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 2px;
+	position: sticky;
+	top:0;
+}
