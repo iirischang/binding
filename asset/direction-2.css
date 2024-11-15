@@ -1,7 +1,7 @@
 body{
 	margin-left: 10px;
 	margin-right: 10px;
-	background-color: #c7ff00;
+	background-color: #00FFBC;
 }
 
 .heading{
@@ -18,7 +18,7 @@ h1{
 h4{
 	font-family: 'typeka';
 	font-size: 20px;
-	color: #c7ff00;
+	color: #00FFBC;
 	background-color: #1E1E1E;
 }
 .publishyear{
@@ -64,7 +64,7 @@ p{
 	font-family: 'typeka';
 	font-size: 35px;
 	border-bottom: 3px solid #1E1E1E;
-	background-color: #c7ff00;
+	background-color: #00FFBC;
 	color: #1E1E1E;
 	margin-bottom: 20px;
 	padding-right: 10px;
@@ -91,7 +91,7 @@ p{
 }
 
 .account{
-	color:#c7ff00;
+	color:#00FFBC;
 	font-size: 20px;
 	text-align: right;
 }
