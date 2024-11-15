@@ -206,10 +206,9 @@ h5{
 	font-size: 50px;
 	padding-top: 10px;
 }
-
 @font-face {
-	font-family: 'NeueBit';
-	src: url('/fonts/NeueBit-Bold.woff2) format('woff2'),
-		url('/fonts/NeueBit-Bold.woff') format('woff');
-		 font-weight: bold;
+    font-family: 'NeueBit';
+    src: url('/fonts/NeueBit-Bold.woff2') format('woff2'),
+         url('/fonts/NeueBit-Bold.woff') format('woff');
+    font-weight: bold;
 }
