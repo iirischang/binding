@@ -247,6 +247,15 @@ h6{
 	margin-bottom: 20px;
 }
 
+.problems-2{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	color: #EFEFEF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .problem{
 	color: #1E1E1E;
 	background-color: #EFEFEF;
