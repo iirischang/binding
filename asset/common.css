@@ -1,10 +1,8 @@
-
-* {margin-top: 0.3em;}
+/* * {margin-top: 0.3em;} */
 
 :root{
-	--base-size:20px;
+    --base-size:20px;
 }
-
 body{
 	font-size: var(--base-size);
 	padding: var(--base-size);
