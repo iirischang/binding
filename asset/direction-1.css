@@ -41,6 +41,8 @@ p{
 	color: #EFEFEF;
 	font-size: 15px;
 	line-height: 1.5;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .intro{
@@ -260,8 +262,6 @@ h6{
 	grid-template-columns: repeat(2, 1fr);
 	gap: 20px;
 	color: #1E1E1E;
-	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
 .problems-2{
@@ -269,8 +269,7 @@ h6{
 	grid-template-columns: repeat(2, 1fr);
 	gap: 20px;
 	color: #EFEFEF;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: -20px;
 }
 
 .problem{
@@ -281,6 +280,15 @@ h6{
 	font-size: 35px;
 	line-height: 30px;
 	padding: 10px;
+}
+
+.letter{
+	background-color: #EFEFEF;
+	font-family:'NeueBit';
+	padding: 20px;
+	font-size: 25px;
+	font-style: italic;
+	line-height: 1.25;
 }
 
 @font-face {
