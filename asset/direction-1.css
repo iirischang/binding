@@ -1,7 +1,5 @@
 body{
 	background-color: #1E1E1E;
-	padding-left: 30px;
-	padding-right: 30px;
 }
 .heading{
 	margin-bottom: 20px;
@@ -91,7 +89,9 @@ p{
 	background-color: #00FFBC;
 	margin-bottom: 20px;
 	position: sticky;
-	top:0px;
+	top: 43px;
+	padding: 0;
+	margin: 0;
 }
 h2{
 	padding: 0;
@@ -126,7 +126,7 @@ h2{
 .stickynote-1{
 	position: sticky;
 	z-index: 1;
-	top: 80px;
+	top: 70px;
 	background-color: #00FFBC;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
@@ -143,55 +143,50 @@ h2{
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	transform: translateY(-10px) translateX(60px);
 }
 
 .stickynote-3{
 	position: sticky;
 	z-index: 3;
-	top:130px;
+	top:170px;
 	background-color: #00FFBC;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	transform: translateY(-30px) translateX(30px);
 }
 
 .stickynote-4{
 	position: sticky;
 	z-index: 4;
-	top:170px;
+	top:200px;
 	background-color: #EFEFEF;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	transform: translateY(-60px) translateX(60px);
 }
 
 .stickynote-5{
 	position: sticky;
 	z-index: 5;
-	top: 200px;
+	top: 240px;
 	background-color: #00FFBC;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	transform: translateY(-70px) translateX(20px);
 }
 
 .stickynote-6{
 	position: sticky;
 	z-index: 6;
-	top: 230px;
+	top: 280px;
 	background-color: #EFEFEF;
 	color: #1E1E1E;
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	transform: translateY(-90px) translateX(60px);
 	margin-bottom: -60px;
 }
 
