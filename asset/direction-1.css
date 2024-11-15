@@ -138,8 +138,6 @@ h2{
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	width: 300px;
-	margin-top: 30px;
 }
 
 .stickynote-2{
@@ -151,8 +149,6 @@ h2{
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	width: 300px;
-	height: 180px;
 	transform: translateY(-10px) translateX(60px);
 }
 
@@ -165,8 +161,6 @@ h2{
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	width: 300px;
-	height: 180px;
 	transform: translateY(-30px) translateX(30px);
 }
 
@@ -179,8 +173,6 @@ h2{
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	width: 300px;
-	height: 250px;
 	transform: translateY(-60px) translateX(60px);
 }
 
@@ -193,8 +185,6 @@ h2{
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	width: 300px;
-	height: 180px;
 	transform: translateY(-70px) translateX(20px);
 }
 
@@ -207,8 +197,6 @@ h2{
 	font-family: 'NeueBit';
 	font-weight: bold;
 	padding: 20px;
-	width: 300px;
-	height: 180px;
 	transform: translateY(-90px) translateX(60px);
 	margin-bottom: -60px;
 }
