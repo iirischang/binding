@@ -1,7 +1,7 @@
 body{
 	margin-left: 10px;
 	margin-right: 10px;
-	background-color: #00ffbc;
+	background-color: #EFEFEF;
 }
 
 .heading{
@@ -19,7 +19,10 @@ h4{
 	font-family: 'typeka';
 	font-size: 20px;
 	color: #1E1E1E;
-	background-color: #EFEFEF;
+}
+
+.author{
+	background-color: #ef7760;
 }
 .publishyear{
 	font-size: 30px;
@@ -45,14 +48,14 @@ p{
 }
 
 .quotesection{
-	background-color: #EFEFEF;
+	background-color: #ef7760;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 20px;
 	font-family: 'typeka';
 	font-weight: bold;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 15px;
+	line-height: 25px;
 }
 
 .mark-1{
@@ -66,8 +69,28 @@ p{
 .subtitle{
 	font-family: 'typeka';
 	font-size: 30px;
-	border-bottom: 3px solid #1E1E1E;
-	background-color: #00ffbc;
+	border-bottom: 3px solid #ef7760;
+	background-color: #EFEFEF;
+	color: #1E1E1E;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 2px;
+	position: sticky;
+	top:0;
+}
+
+.subnumber{
+	color: #ef7760;
+	text-align: right;
+	font-size: 50px;
+}
+
+.subtitle-3{
+	font-family: 'typeka';
+	font-size: 30px;
+	border-bottom: 3px solid #ef7760;
+	background-color: #EFEFEF;
 	color: #1E1E1E;
 	margin-bottom: 20px;
 	padding-right: 10px;
@@ -94,8 +117,8 @@ p{
 }
 
 .account{
-	color:#00ffbc;
-	font-size: 20px;
+	color:#1E1E1E;
+	font-size: 15px;
 	text-align: right;
 }
 
@@ -103,7 +126,7 @@ p{
 	position: sticky;
 	z-index: 1;
 	top: 0px;
-	background-color: #1E1E1E;
+	background-color: #ef7760;
 	color: #1E1E1E;
 	font-family: 'typeka';
 	padding: 20px;
@@ -123,7 +146,7 @@ p{
 	position: sticky;
 	z-index: 3;
 	top: 0px;
-	background-color: #1E1E1E;
+	background-color: #ef7760;
 	color: #1E1E1E;
 	font-family: 'typeka';
 	padding: 20px;
@@ -143,7 +166,7 @@ p{
 	position: sticky;
 	z-index: 5;
 	top: 0px;
-	background-color: #1E1E1E;
+	background-color: #ef7760;
 	color: #1E1E1E;
 	font-family: 'typeka';
 	padding: 20px;
@@ -167,7 +190,7 @@ h5{
 }
 
 h6{
-	background-color: #EFEFEF;
+	background-color: #ef7760;
 	color: #1E1E1E;
 	font-family: 'typeka';
 	padding: 10px;
@@ -180,7 +203,7 @@ h6{
 .h6-2{
 	transform: rotate(-3deg);
 	background-color: #1E1E1E;
-	color: #00FFBC;
+	color: #ef7760;
 }
 
 .problems{
@@ -200,10 +223,11 @@ h6{
 }
 
 .problem{
-	color: #EFEFEF;
-	background-color: #1E1E1E;
+	color: #1E1E1E;
+	background-color: #ef7760;
 	font-family: 'typeka';
-	font-size: 20px;
-	line-height: 30px;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 1.25;
 	padding: 10px;
 }
