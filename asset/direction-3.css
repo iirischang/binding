@@ -57,6 +57,8 @@ p{
 	color: #1E1E1E;
 	font-size: 15px;
 	line-height: 1.5;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .quotesection{
@@ -242,4 +244,13 @@ h6{
 	font-size: 20px;
 	line-height: 30px;
 	padding: 10px;
+}
+
+.letter{
+	background-color: #ffffff;
+	font-family:'mencken-std-head', sans-serif;
+	font-style: italic;
+	padding: 20px;
+	font-size: 20px;
+	line-height: 1.5;
 }
