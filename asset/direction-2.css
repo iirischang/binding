@@ -231,3 +231,14 @@ h6{
 	line-height: 1.25;
 	padding: 10px;
 }
+
+.letter{
+	background-color: #ef7760;
+	font-family:'typeka';
+	padding: 20px;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 1.25;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
