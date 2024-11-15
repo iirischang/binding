@@ -4,7 +4,6 @@ body{
 	padding-right: 30px;
 }
 .heading{
-	background-color: #EFEFEF;
 	margin-bottom: 20px;
 	overflow: hidden;
 	padding-left: 0;
@@ -15,7 +14,7 @@ h1{
 	font-weight: bold;
 	font-size: 115px;
 	text-transform: uppercase;
-	color: #1E1E1E;
+	color: #00FFBC;
 	text-align: left;
 	padding: 0;
 }
@@ -30,12 +29,8 @@ h4{
 	font-size: 90px;
 	font-family: 'NeueBit';
 	font-weight: bold;
-	margin-top: -20px;
-	margin-bottom: -70px;
-	color: #1E1E1E;
-	line-height: 0.7;
-	text-align: right;
-	transform: rotate(90deg)translateY(-145px) translateX(-105px);
+	color: #00FFBC;
+	line-height: 0.3;
 }
 
 p{
