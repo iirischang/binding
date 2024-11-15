@@ -162,3 +162,20 @@ h5{
 	font-size: 40px;
 	padding-top: 10px;
 }
+
+h6{
+	background-color: #EFEFEF;
+	color: #1E1E1E;
+	font-family: 'typeka';
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	transform: rotate(3deg);
+}
+.h6-2{
+	transform: rotate(-3deg);
+	background-color: #1E1E1E;
+	color: #00FFBC;
+}
