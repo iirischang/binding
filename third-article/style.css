@@ -34,8 +34,11 @@ h1{
 
 
 .subtitle{
-	font-family: 'typeka';
-	font-size: 20px;
+	z-index: 1;
+	top: 0;
+	position: sticky;
+	font-family: 'mencken-std-head-compress';
+	font-size: 25px;
 	font-style: italic;
 	text-align: center;
 	background-color: #ffffff;
@@ -49,4 +52,32 @@ p{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	white-space: normal;
+}
+
+.quotesection{
+	background-color: #4ef9a3;
+	font-style: italic;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-family: 'typeka';
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h6{
+	background-color: #1E1E1E;
+	color: #4ef9a3;
+	font-family: 'typeka';
+	padding: 10px;
+	font-size: 12px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	transform: rotate(2deg);
+}
+
+.h6-2{
+	transform: rotate(-2deg);
+	background-color: #EFEFEF;
+	color: #1E1E1E;
 }
