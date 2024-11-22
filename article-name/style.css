@@ -92,6 +92,9 @@ h2{
 }
 
 .subtitle{
+	display: grid;
+	grid-template-columns: 1fr auto;
+	align-items: center;
 	z-index: 7;
 	font-family: 'mencken-std-head-narrow';
 	text-transform: uppercase;
@@ -104,9 +107,16 @@ h2{
 	top:0;
 	width: calc(100vw);
 	margin-left: -2rem;
+	border-bottom: 1.5px solid #1E1E1E;
+	background-color: #e0ff00;
 }
 
-.subtitle-3{
+.subtitle-text{
+	text-align: center;
+	padding-top: 10px;
+}
+
+/* .subtitle-3{
 	z-index: 7;
 	font-family: 'mencken-std-head-narrow';
 	text-transform: uppercase;
@@ -118,14 +128,13 @@ h2{
 	top:0;
 	width: calc(100vw);
 	margin-left: -2rem;
-}
+} */
 
 .subnumber{
 	color: #1E1E1E;
-	border-bottom: 2px solid #1E1E1E;
-	background-color: #e0ff00;
 	font-size: 25px;
 	text-align: right;
+	padding-top: 5px;
 }
 
 .feedback-section{
@@ -175,7 +184,7 @@ h2{
 .stickynote-1{
 	position: sticky;
 	z-index: 1;
-	top: 80px;
+	top: 40px;
 	background-color: #1E1E1E;
 	color: #e0ff00;
 	padding: 20px;
@@ -184,7 +193,7 @@ h2{
 .stickynote-2{
 	position: sticky;
 	z-index: 2;
-	top: 110px;
+	top: 70px;
 	background-color: #e0ff00;
 	color: #1E1E1E;
 	padding: 20px;
@@ -193,7 +202,7 @@ h2{
 .stickynote-3{
 	position: sticky;
 	z-index: 3;
-	top: 140px;
+	top: 100px;
 	background-color: #1E1E1E;
 	color: #EFEFEF;
 	padding: 20px;
@@ -202,7 +211,7 @@ h2{
 .stickynote-4{
 	position: sticky;
 	z-index: 4;
-	top: 170px;
+	top: 130px;
 	background-color: #e0ff00;
 	color: #1E1E1E;
 	padding: 20px;
@@ -211,7 +220,7 @@ h2{
 .stickynote-5{
 	position: sticky;
 	z-index: 5;
-	top: 200px;
+	top: 160px;
 	background-color: #1E1E1E;
 	color: #1E1E1E;
 	padding: 20px;
@@ -220,7 +229,7 @@ h2{
 .stickynote-6{
 	position: sticky;
 	z-index: 6;
-	top: 230px;
+	top: 190px;
 	background-color: #e0ff00;
 	color: #1E1E1E;
 	padding: 20px;
@@ -303,7 +312,7 @@ h6{
 .ways{
 	position: sticky;
 	z-index: 1;
-	top: 80px;
+	top: 40px;
 	color: #EFEFEF;
 	font-family: 'mencken-std-head-narrow';
 	font-size: 20px;
