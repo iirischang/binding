@@ -99,10 +99,11 @@ h2{
 	text-align: center;
 	background-color: #EFEFEF;
 	color: #1E1E1E;
-	margin: 0;
 	padding-bottom: 5px;
 	position: sticky;
 	top:0;
+	width: calc(100vw);
+	margin-left: -2rem;
 }
 
 .subtitle-3{
@@ -115,6 +116,8 @@ h2{
 	color: #1E1E1E;
 	position: sticky;
 	top:0;
+	width: calc(100vw);
+	margin-left: -2rem;
 }
 
 .subnumber{
