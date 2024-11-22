@@ -1,0 +1,80 @@
+
+body{
+	margin: 20px;
+	background-color: #efefef;
+}
+
+h1{
+	font-size: 80px;
+	font-family: 'mencken-std-head-compress';
+	text-transform: uppercase;
+	text-align: center;
+	color:#1E1E1E;
+	padding: 0;
+	line-height: 0.8;
+}
+
+.overlap-cards {
+	position: relative;
+	width: 300px;
+	height: 750px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	box-shadow: 0 2px 6px rgb(0,0,0,0.1);
+	padding: 20px;
+	box-sizing: border-box;
+	transition: transform 0.3 ease, box-shadow 0.3s ease, z-index 0.3s;
+}
+
+.card-1 {
+	transform: rotate(-5deg) translateY(10px);
+	z-index: 1;
+}
+
+.card-2 {
+	transform: rotate(0deg);
+	z-index: 2;
+}
+
+.card-3{
+	transform: rotate(5deg) translateY(-10px);
+	z-index: 3;
+}
+
+.card-title{
+	font-size: 70px;
+	font-family: 'mencken-std-head-compress';
+	color: #1E1E1E;
+}
+
+.card-text{
+	font-size: 15px;
+	font-family: 'minion-pro';
+	color: #1E1E1E;
+}
+
+.read-more {
+	font-family: 'mencken-std-head-compress';
+	display: inline-block;
+	font-size: 30px;
+	color: #1E1E1E;
+	text-align: right;
+}
+
+.read-more:hover {
+	color: aquamarine;
+}
+
+.card:hover {
+    transform: rotate(0deg) translateY(-10px);
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
