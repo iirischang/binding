@@ -1,11 +1,13 @@
 
 body{
-	margin: 20px;
+	margin: 30px;
 	background-color: #efefef;
+	justify-content: center;
+	align-items: center;
 }
 
 h1{
-	font-size: 80px;
+	font-size: 140px;
 	font-family: 'mencken-std-head-compress';
 	text-transform: uppercase;
 	text-align: center;
@@ -15,9 +17,10 @@ h1{
 }
 
 .overlap-cards {
+	padding-left: 50px;
 	position: relative;
 	width: 300px;
-	height: 750px;
+	height: 550px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -34,8 +37,19 @@ h1{
 	transition: transform 0.3 ease, box-shadow 0.3s ease, z-index 0.3s;
 }
 
+h3{
+	font-size: 20px;
+	font-family: 'mencken-std-head-compress';
+	text-transform: uppercase;
+	text-align: center;
+	color:#1E1E1E;
+	border-bottom: 1px solid #1E1E1E;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
 .card-1 {
-	transform: rotate(-5deg) translateY(10px);
+	transform: rotate(-10deg) translateY(10px);
 	z-index: 1;
 }
 
@@ -45,12 +59,15 @@ h1{
 }
 
 .card-3{
-	transform: rotate(5deg) translateY(-10px);
+	background-color: #e0ff00;
+	transform: rotate(10deg) translateY(-10px);
 	z-index: 3;
 }
 
 .card-title{
-	font-size: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
 	font-family: 'mencken-std-head-compress';
 	color: #1E1E1E;
 }
@@ -66,15 +83,28 @@ h1{
 	display: inline-block;
 	font-size: 30px;
 	color: #1E1E1E;
+	display: block;
 	text-align: right;
 }
 
 .read-more:hover {
-	color: aquamarine;
+	background-color: #1E1E1E;
+	color: #e0ff00;
 }
 
 .card:hover {
     transform: rotate(0deg) translateY(-10px);
     z-index: 10;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.footer {
+	font-size: 60px;
+	font-family: 'mencken-std-head-compress';
+	text-transform: uppercase;
+	text-align: center;
+	color:#1E1E1E;
+	padding: 0;
+	line-height: 0.8;
+	padding-top: 50px;
 }
