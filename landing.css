@@ -27,7 +27,7 @@ h1{
 }
 
 .overlap-cards {
-	margin-top: -20px;
+	margin-top: -40px;
 	margin-left: 30px;
 	position: relative;
 	width: 100%;
@@ -108,7 +108,7 @@ h3{
 	color: #1E1E1E;
 	display: block;
 	text-align: right;
-	padding-top: 20px;
+	padding-top: 5px;
 }
 
 .read-more:hover {
