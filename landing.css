@@ -16,7 +16,8 @@ h2 {
 	color:#1E1E1E;
 }
 h1{
-	font-size: 140px;
+	font-size: 120px;
+	font-weight: normal;
 	font-family: 'mencken-std-head-compress';
 	text-transform: uppercase;
 	text-align: center;
@@ -45,28 +46,23 @@ h1{
 	box-sizing: border-box;
 }
 
-/* card-target */
-
-.card-1:target {
-	transform: scale(1.1) rotate(0deg) translateY(0);
+.card-1:active{
 	z-index: 10;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-.card-2:target {
-	transform: scale(1.1) rotate(0deg) translateY(0);
-	z-index: 10;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-.card-3:target {
-	transform: scale(1.1) rotate(0deg) translateY(0);
-	z-index: 10;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-/* .card:active{
 	transform: scale(1.05);
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-} */
+}
+
+.card-2:active{
+	z-index: 10;
+	transform: scale(1.05);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-3:active{
+	z-index: 10;
+	transform: scale(1.05);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
 
 /* .card:hover {
 	z-index: 10;
