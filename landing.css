@@ -28,8 +28,8 @@ h1{
 .overlap-cards {
 	margin-left: 30px;
 	position: relative;
-	width: 300px;
-	height: 550px;
+	width: 90%;
+	height: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -46,18 +46,17 @@ h1{
 	transition: transform 0.3 ease, box-shadow 0.3s ease, z-index 0.3s;
 }
 
-.card:active, .card:focus {
+.card:active{
 	z-index: 100;
 	transform: scale(1.05);
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
 }
 
-.card:hover {
+/* .card:hover {
 	z-index: 10;
 	transform: rotate(0deg) translateY(-10px);
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
+} */
 
 h3{
 	font-size: 20px;
@@ -109,6 +108,7 @@ h3{
 	color: #1E1E1E;
 	display: block;
 	text-align: right;
+	padding-top: 20px;
 }
 
 .read-more:hover {
