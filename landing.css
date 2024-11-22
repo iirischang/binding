@@ -43,14 +43,30 @@ h1{
 	box-shadow: 0 2px 6px rgb(0,0,0,0.1);
 	padding: 20px;
 	box-sizing: border-box;
-	transition: transform 0.3 ease, box-shadow 0.3s ease, z-index 0.3s;
 }
 
-.card:active{
-	z-index: 100;
+/* card-target */
+
+.card-1:target {
+	transform: scale(1.1) rotate(0deg) translateY(0);
+	z-index: 10;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card-2:target {
+	transform: scale(1.1) rotate(0deg) translateY(0);
+	z-index: 10;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card-3:target {
+	transform: scale(1.1) rotate(0deg) translateY(0);
+	z-index: 10;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* .card:active{
 	transform: scale(1.05);
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* .card:hover {
 	z-index: 10;
