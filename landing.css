@@ -9,6 +9,39 @@ body{
 	overflow-x: hidden;
 }
 
+.menu {
+	position: relative;
+}
+
+.menu-items {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.5rem;
+	color: #1E1E1E;
+	word-spacing: 1.3rem;
+	margin-bottom: 1rem;
+	z-index: 1;
+	position: relative;
+	margin-top: -2rem;
+	margin-left: 1rem;
+	font-family: 'mencken-std-head-narrow';
+}
+
+.overlap-paper {
+	width: 80;
+	height: 30;
+	background-color: #e0ff00;
+	opacity: 100%;
+	transform-origin: left;
+	transform: scaleX(1) rotate(-5deg);
+	transition: transform 0.3s ease;
+	justify-content: center;
+	z-index: 0;
+}
+
+.overlap-paper:hover {
+	transform: scaleX(0);
+}
+
 h2 {
 	font-size: 40px;
 	font-family: 'mencken-std-head-compress';
@@ -112,13 +145,6 @@ h3{
 	color: #1E1E1E;
 }
 
-.card-title-2{
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 40px;
-	font-family: 'mencken-std-head-compress';
-	color: #1E1E1E;
-}
 
 .card-text-2 {
 	font-size: 15px;
@@ -152,9 +178,6 @@ h3{
 	padding-top: 10px;
 }
 
-/* .read-more:hover {
-	text-decoration: underline;
-} */
 
 .footer {
 	font-size: 52px;
