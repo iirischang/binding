@@ -9,48 +9,29 @@ body{
 	overflow-x: hidden;
 }
 
-.menu {
-	margin: 0;
-	position: relative;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	padding-bottom: 2rem;
+input {
+	display: none;
 }
 
-.menu-items {
-	font-size: 1.5rem;
-	font-family: 'mencken-std-head-narrow';
-	color: #1E1E1E;
+.open {
+	background-color: #1E1E1E;
+	width: 2rem;
+	height: 1rem;
+	display: block;
+	cursor: pointer;
 	position: relative;
-	width: 4.3rem;
-	height: 1.8rem;
-	background-color: #efefef;
-	opacity: 100%;
-	transform-origin: left;
-	transform: scaleX(1) rotate(-5deg);
-	transition: transform 0.3s ease;
-	text-align: center;
-	z-index: 0;
+	top: 2rem;
 }
-
-.menu-items-2 {
-	font-size: 1.5rem;
-	font-family: 'mencken-std-head-narrow';
-	color: #1E1E1E;
+ 
+.open:before {
+	content: "";
+	background-color: #1E1E1E;
+	width: 2rem;
+	height: 1rem;
+	display: block;
 	position: relative;
-	width: 4.3rem;
-	height: 1.8rem;
-	background-color: #efefef;
-	opacity: 100%;
-	transform-origin: left;
-	transform: scaleX(1) rotate(5deg);
-	transition: transform 0.3s ease;
-	text-align: center;
-	z-index: 0;
-}
-
-.menu-items:hover {
-	background-color: #e0ff00;
+	top: -2rem;
+	transition: all 0.3s ease;
 }
 
 h2 {
