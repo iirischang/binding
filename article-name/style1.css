@@ -1,5 +1,5 @@
-body{
-	background-color: #EFEFEF;
+body {
+	background-color: var(--light-gray);
 }
 
 h1{
