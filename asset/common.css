@@ -1,2 +1,23 @@
+:root {
+/* colors */
+--dark-gray: #1E1E1E;
+--light-gray: #EFEFEF;
+--yellow: #e0ff00;
+--blue: #78EAE7;
+--green: #4EF9A3;
 
+/* fonts */
+--font-primary: 'mencken-std-head-compress';
+--font-secondary: 'minion-pro';
+
+}
+
+body{
+	margin-top: 1.8rem;
+	margin-left: 1.8rem;
+	margin-right: 1.8rem;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+}
 

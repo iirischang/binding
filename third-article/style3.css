@@ -1,9 +1,6 @@
-body{
-	margin-left: 30px;
-	margin-right: 30px;
+body {
 	background-color: #EFEFEF;
 }
-
 h1{
 	font-family: 'mencken-std-head-compress';
 	text-transform: uppercase;
