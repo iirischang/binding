@@ -169,16 +169,12 @@ input {
 
 h2 {
 	font-size: 40px;
-	font-family: 'mencken-std-head-compress';
-	text-transform: uppercase;
 	text-align: left;
 	color:#efefef;
 }
 h1{
 	font-size: 120px;
 	font-weight: normal;
-	font-family: 'mencken-std-head-compress';
-	text-transform: uppercase;
 	text-align: center;
 	color: #efefef;
 	padding: 0;
@@ -215,8 +211,6 @@ h1{
 
 h3{
 	font-size: 30px;
-	font-family: 'mencken-std-head-compress';
-	text-transform: uppercase;
 	text-align: center;
 	color:#1E1E1E;
 	border-bottom: 1px solid #1E1E1E;
@@ -319,7 +313,6 @@ h4{
 	margin-top: 20px;
 	padding: 5px;
 	font-size: 25px;
-	font-family: 'mencken-std-head-compress';
 	color:#1E1E1E;
 	background-color: #efefef;
 	text-align: center;

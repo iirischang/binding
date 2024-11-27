@@ -9,6 +9,7 @@
 /* fonts */
 --font-primary: 'mencken-std-head-compress';
 --font-secondary: 'minion-pro';
+--font-quote:'typeka';
 
 }
 
@@ -21,3 +22,26 @@ body{
 	overflow-x: hidden;
 }
 
+h1 {
+	font-family: var(--font-primary);
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: var(--font-primary);
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: var(--font-primary);
+	text-transform: uppercase;
+}
+
+h4 {
+	font-family: var(--font-primary);
+	text-transform: uppercase;
+}
+
+p {
+	font-family: var(--font-secondary);
+}
