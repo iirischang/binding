@@ -7,7 +7,7 @@ input {
   
   .open {
 	z-index: 11;
-	background-color: #efefef;
+	background-color: var(--light-gray);
 	width: 24px;
 	height: 2px;
 	display: block;
@@ -19,7 +19,7 @@ input {
   .open:before {
 	z-index: 11;
 	content: "";
-	background-color: #efefef;
+	background-color: var(--light-gray);
 	width: 24px;
 	height: 2px;
 	display: block;
@@ -32,7 +32,7 @@ input {
   .open:after {
 	z-index: 11;
 	content: "";
-	background-color: #efefef;
+	background-color: var(--light-gray);
 	width: 24px;
 	height: 2px;
 	display: block;
@@ -66,7 +66,7 @@ input {
 	height: 100vh;
 	top: 0;
 	left: 0;
-	background: #1E1E1E;
+	background: var(--dark-gray);
 	margin-bottom: 15px;
   }
   
@@ -100,7 +100,7 @@ input {
 	position: relative;
 	overflow: hidden;
 	display: block;
-	color: #efefef;
+	color: var(--light-gray);
 	text-decoration: none;
 	transition: color 0.2s;
 	font-family: 'mencken-std-head-compress';
@@ -110,11 +110,11 @@ input {
 
   .menu ul li a:hover {
 	left: 0;
-	color: #1E1E1E;
+	color: var(--dark-gray);
   }
   
   .menu ul li:hover {
-	background: #efefef;
+	background: var(--light-gray);
   }
   
   .menuEffects {
@@ -144,7 +144,7 @@ input {
   
   #menuToggle:checked ~ .menuOpen .open:before {
 	content: "";
-	background-color: white;
+	background-color: var(--light-gray);
 	transform: rotate(45deg);
 	position: absolute;
 	top: 0;
@@ -154,7 +154,7 @@ input {
   
   #menuToggle:checked ~ .menuOpen .open:after {
 	content: "";
-	background-color: white;
+	background-color: var(--light-gray);
 	transform: rotate(-45deg);
 	position: relative;
 	top: 0;
@@ -170,13 +170,13 @@ input {
 h2 {
 	font-size: 40px;
 	text-align: left;
-	color:#efefef;
+	color: var(--light-gray);
 }
 h1{
 	font-size: 120px;
 	font-weight: normal;
 	text-align: center;
-	color: #efefef;
+	color: var(--light-gray);
 	padding: 0;
 	line-height: 0.8;
 }
@@ -193,7 +193,7 @@ h1{
 
 .card {
 	position: absolute;
-	background-color: #ffffff;
+	background-color: var(--light-gray);
 	box-shadow: 0 2px 6px rgb(0,0,0,0.1);
 	padding: 25px;
 	box-sizing: border-box;
@@ -212,8 +212,8 @@ h1{
 h3{
 	font-size: 30px;
 	text-align: center;
-	color:#1E1E1E;
-	border-bottom: 1px solid #1E1E1E;
+	color: var(--dark-gray);
+	border-bottom: 1px solid: var(--dark-gray);
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	padding-top: -10px;
@@ -224,33 +224,33 @@ h3{
 	font-family: 'mencken-std-head-compress';
 	text-transform: uppercase;
 	text-align: center;
-	color:#1E1E1E;
-	border-bottom: 1px solid #1E1E1E;
+	color: var(--dark-gray);
+	border-bottom: 1px solid: var(--dark-gray);
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	padding-top: -10px;
 }
 
 .card-1 {
-	background-color: #4ef9a3;
+	background-color: var(--green);
 	transform: rotate(-15deg) translateY(50px);
 	z-index: 1;
 }
 
 .card-2 {
-	background-color: #78eae7;
+	background-color: var(--blue);
 	transform: rotate(20deg) translateY(-20px);
 	z-index: 2;
 }
 
 .card-3{
-	background-color: #e0ff00;
+	background-color: var(--yellow);
 	transform: rotate(10deg) translateY(-10px);
 	z-index: 3;
 }
 
 .card-4{
-	background-color: #efefef;
+	background-color: var(--light-gray);
 	transform: rotate(0deg) translateY(-10px);
 	z-index: 4;
 	margin-left: -20px;
@@ -261,27 +261,27 @@ h3{
 	text-align: center;
 	font-size: 40px;
 	font-family: 'mencken-std-head-compress';
-	color: #1E1E1E;
+	color: var(--dark-gray);
 }
 
 
 .card-text-2 {
 	font-size: 15px;
 	font-family: 'minion-pro';
-	color: #1E1E1E;
+	color: var(--dark-gray);
 }
 
 .card-text{
 	font-size: 15px;
 	font-family: 'minion-pro';
-	color: #1E1E1E;
+	color: var(--dark-gray);
 }
 
 .read-more {
 	font-family: 'mencken-std-head-compress';
 	display: inline-block;
 	font-size: 30px;
-	color: #1E1E1E;
+	color: var(--dark-gray);
 	display: block;
 	text-align: right;
 	padding-top: 10px;
@@ -291,7 +291,7 @@ h3{
 	font-family: 'mencken-std-head-compress';
 	display: inline-block;
 	font-size: 30px;
-	color: #1E1E1E;
+	color: var(--dark-gray);
 	display: block;
 	text-align: right;
 	padding-top: 10px;
@@ -303,7 +303,7 @@ h3{
 	font-family: 'mencken-std-head-compress';
 	text-transform: uppercase;
 	text-align: center;
-	color:#efefef;
+	color: var(--light-gray);
 	padding: 0;
 	line-height: 0.8;
 	padding-top: 70px;
@@ -313,10 +313,9 @@ h4{
 	margin-top: 20px;
 	padding: 5px;
 	font-size: 25px;
-	color:#1E1E1E;
-	background-color: #efefef;
+	color: var(--dark-gray);
+	background-color: var(--light-gray);
 	text-align: center;
-	background-color: ;
 	width: calc(100vw);
 	margin-left: -1.9rem;
 }
