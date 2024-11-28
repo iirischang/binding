@@ -1,19 +1,19 @@
 body {
 	background-color: var(--light-gray);
 }
-h1{
+h1 {
 	text-align: center;
 	color: var(--dark-gray);
 	padding: 0;
 	line-height: 0.8;
 }
 
-.author{
+.author {
 	font-size: 4.7rem;
 	text-align: center;
 }
 
-.title1{
+.title1 {
 	font-size: 8rem;
 	justify-content: center;
 	background-color: var(--green);
@@ -21,13 +21,13 @@ h1{
 	margin-bottom: 1.25rem;
 }
 
-.title2{
+.title2 {
 	font-size: 5.6rem;
 	justify-content: center;
 }
 
 
-.subtitle{
+.subtitle {
 	z-index: 1;
 	top: 0;
 	position: sticky;
