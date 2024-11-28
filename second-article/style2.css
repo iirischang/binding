@@ -15,42 +15,42 @@ h2 {
 	top: 0;
 	background-color: var(--blue);
 	color: var(--dark-gray);
-	font-size: 30px;
+	font-size: 1.9rem;
 	text-align: center;
 }
 
 .author {
-	font-size: 70px;
+	font-size: 4.4rem;
 	text-align: center;
 }
 
 .title1 {
-	font-size: 90px;
+	font-size: 5.6rem;
 	justify-content: center;
 	background-color: var(--blue);
 }
 
 .title2 {
-	font-size: 90px;
+	font-size: 5.6rem;
 	justify-content: center;
-	padding-top: 10px;
+	padding-top: 0.6rem;
 }
 
 
 .intro {
 	font-family: 'minion-pro';
 	font-style: italic;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 1.25rem;
+	margin-top: 1.25rem;
 	text-align: center;
 }
 
 p {
 	color: var(--dark-gray);
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 1.5;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
 	white-space: normal;
 }
 
@@ -59,11 +59,11 @@ p {
 	grid-template-columns: 1fr auto;
 	align-items: center;
 	z-index: 7;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-align: center;
 	background-color: var(--light-gray);
 	color: var(--dark-gray);
-	padding-bottom: 5px;
+	padding-bottom: 0.3rem;
 	position: sticky;
 	top:0;
 	width: calc(100vw);
@@ -72,16 +72,16 @@ p {
 	background-color: var(--blue);
 }
 
-.subtitle-text{
+.subtitle-text {
 	text-align: left;
-	padding-top: 10px;
-	padding-left: 20px;
+	padding-top: 0.6rem;
+	padding-left: 1.25rem;
 }
 
-.subnumber{
+.subnumber {
 	color: var(--dark-gray);
-	font-size: 25px;
+	font-size: 1.6rem;
 	text-align: right;
-	padding-top: 5px;
-	padding-right: 5px;
+	padding-top: 0.3rem;
+	padding-right: 0.3rem;
 }
