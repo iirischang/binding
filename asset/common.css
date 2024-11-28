@@ -5,6 +5,7 @@
 --yellow: #e0ff00;
 --blue: #78EAE7;
 --green: #4EF9A3;
+--white: #FFFFFF;
 
 /* fonts */
 --font-primary: 'mencken-std-head-compress';
@@ -42,6 +43,25 @@ h4 {
 	text-transform: uppercase;
 }
 
+h6 {
+	font-family: var(--font-quote);
+}
+
 p {
 	font-family: var(--font-secondary);
+}
+
+.author {
+	font-family: var(--font-primary);
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-family: var(--font-primary);
+	text-transform: uppercase;
+}
+
+.quotesection {
+	font-style: italic;
+	font-family: var(--font-quote);
 }
