@@ -4,6 +4,35 @@ body {
 input {
 	display: none;
   }
+
+.top {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-transform: uppercase;
+  }
+
+.topcontent-1 {
+	font-family: var(--font-primary);
+	font-size: 2rem;
+	text-align: left;
+	color: var(--light-gray);
+  }
+
+.topcontent-2 {
+	font-family: var(--font-primary);
+	font-size: 2rem;
+	text-align: center;
+	color: var(--light-gray);
+  }
+
+.topcontent-3 {
+	font-family: var(--font-primary);
+	font-size: 2rem;
+	text-align: right;
+	color: var(--light-gray);
+  }
+
+
   
   .open {
 	z-index: 11;
@@ -166,19 +195,19 @@ input {
 	transform: translateY(-30%);
   }  
   
-
-h2 {
-	font-size: 2.5rem;
-	text-align: left;
-	color: var(--light-gray);
-}
-h1{
+h1 {
 	font-size: 7.5rem;
 	font-weight: normal;
 	text-align: center;
 	color: var(--light-gray);
 	padding: 0;
 	line-height: 0.8;
+}
+
+h2 {
+	font-size: 2.5rem;
+	text-align: left;
+	color: var(--light-gray);
 }
 
 .overlap-cards {
