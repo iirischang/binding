@@ -6,8 +6,7 @@ body {
 .arrow-container {
 	font-weight: 200;
 	display: flex;
-	background-color: var(--yellow);
-	color: var(--dark-gray);
+	background-color: var(--dark-gray);
 	font-size: 1.5rem;
 	justify-content: space-between;
 	width: calc(100vw);
@@ -18,10 +17,12 @@ body {
 }
 .left-arrow {
 	text-align: left;
+	color: var(--green);
 }
 
 .right-arrow {
 	text-align: right;
+	color: var(--blue);
 }
 
 .top {
