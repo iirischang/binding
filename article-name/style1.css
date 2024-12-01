@@ -226,47 +226,47 @@ h2 {
 .name {
 	color: var(--yellow);
 	font-size: 1.25rem;
-	font-family: 'mencken-std-head-narrow';
+	font-family: var(--font-narrow);
 }
 
 .answers {
 	color: var(--light-gray);
-	font-family: 'mencken-std-head-narrow';
-	font-size: 0.9rem;
+	font-family: var(--font-narrow);
+	font-size: 1rem;
 	line-height: 1.5;
 }
 
 .account {
 	color: var(--yellow);
 	font-size: 0.9rem;
-	font-family: 'minion-pro';
+	font-family: var(--font-secondary);
 	text-align: right;
 }
 
 .name-2 {
 	color: var(--dark-gray);
 	font-size: 1.25rem;
-	font-family: 'mencken-std-head-narrow';
+	font-family: var(--font-narrow);
 }
 
 .answers-2 {
 	color: var(--dark-gray);
-	font-family: 'mencken-std-head-narrow';
-	font-size: 0.9rem;
+	font-family: var(--font-narrow);
+	font-size: 1rem;
 	line-height: 1.5;
 }
 
 .account-2 {
 	color: var(--dark-gray);
 	font-size: 0.9rem;
-	font-family: 'minion-pro';
+	font-family: var(--font-secondary);
 	text-align: right;
 }
 
 .stickynote-1 {
 	position: sticky;
 	z-index: 1;
-	top: 2.5rem;
+	top: 2.4rem;
 	background-color: var(--dark-gray);
 	color: var(--yellow);
 	padding: 1.25rem;
@@ -319,7 +319,7 @@ h2 {
 
 h5 {
 	color: var(--yellow);
-	font-family: 'mencken-std-head-narrow';
+	font-family: var(--font-narrow);
 	font-size: 1.4rem;
 	background-color: #1E1E1E;
 	margin-top: 0.6rem;
@@ -329,8 +329,14 @@ h5 {
 	text-align: center;
 }
 
+.dot {
+	color: var(--yellow);
+	vertical-align: middle;
+}
+
 .looks {
 	font-size: 1.9rem;
+	vertical-align: middle;
 }
 
 h6 {
