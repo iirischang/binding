@@ -180,22 +180,22 @@ h3{
 }
 
 .card-2 {
-	background-color: var(--blue);
+	background-color: var(--yellow);
 	transform: rotate(20deg) translateY(-20px);
 	z-index: 2;
 }
 
 .card-3{
-	background-color: var(--yellow);
+	background-color: var(--blue);
 	transform: rotate(10deg) translateY(-10px);
 	z-index: 3;
 }
 
 .card-4{
-	background-color: var(--light-gray);
+	background-color: var(--orange);
 	transform: rotate(0deg) translateY(-10px);
 	z-index: 4;
-	margin-left: -1.25rem;
+	margin-left: -0.2rem;
 }
 
 .card-title{

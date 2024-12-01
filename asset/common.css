@@ -2,14 +2,16 @@
 /* colors */
 --dark-gray: #1E1E1E;
 --light-gray: #EFEFEF;
---yellow: #e0ff00;
---blue: #78EAE7;
---green: #4EF9A3;
+--yellow: #E3ED55;
+--blue: #62A8E5;
+--green: #00AA93;
+--orange: #FF665E;
 --white: #FFFFFF;
 
 /* fonts */
 --font-primary: 'mencken-std-head-compress';
 --font-secondary: 'minion-pro';
+--font-narrow: 'mencken-std-head-narrow';
 --font-quote:'typeka';
 
 }
@@ -57,7 +59,7 @@ p {
 }
 
 .subtitle {
-	font-family: var(--font-primary);
+	font-family: var(--font-narrow);
 	text-transform: uppercase;
 }
 
