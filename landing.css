@@ -6,6 +6,7 @@ input {
   }
 
 .arrow-container {
+	font-weight: 200;
 	display: flex;
 	background-color: var(--dark-gray);
 	color: var(--light-gray);
@@ -77,6 +78,32 @@ ol {
 
 li:last-child {
 	border-right: none;
+}
+
+/* Hover */
+li:nth-child(1):hover {
+	background-color: var(--yellow);
+}
+
+li:nth-child(2):hover {
+	background-color: var(--blue);
+}
+
+li:nth-child(3):hover {
+	background-color: var(--green);
+}
+
+/* Active */
+li:nth-child(1):active {
+	background-color: var(--yellow);
+}
+
+li:nth-child(2):active {
+	background-color: var(--blue);
+}
+
+li:nth-child(3):active {
+	background-color: var(--green);
 }
 
 h1 {
