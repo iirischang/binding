@@ -78,6 +78,10 @@ li:last-child {
 	border-right: none;
 }
 
+li:nth-child(2) {
+	background-color: var(--blue);
+}
+
 /* Hover */
 li:nth-child(1):hover {
 	background-color: var(--yellow);

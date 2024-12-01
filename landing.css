@@ -174,7 +174,7 @@ h3{
 }
 
 .card-1 {
-	background-color: var(--green);
+	background-color: var(--orange);
 	transform: rotate(-15deg) translateY(50px);
 	z-index: 1;
 }
@@ -192,7 +192,7 @@ h3{
 }
 
 .card-4{
-	background-color: var(--orange);
+	background-color: var(--green);
 	transform: rotate(0deg) translateY(-10px);
 	z-index: 4;
 	margin-left: -0.2rem;

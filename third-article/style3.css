@@ -82,7 +82,9 @@ ol {
 
 li:last-child {
 	border-right: none;
+	background-color: var(--orange);
 }
+
 
 /* Hover */
 li:nth-child(1):hover {
@@ -118,7 +120,7 @@ li:nth-child(3):active {
 .title1 {
 	font-size: 8rem;
 	justify-content: center;
-	background-color: var(--green);
+	background-color: var(--orange);
 	padding-top: 0.6rem;
 	margin-bottom: 1.25rem;
 }
@@ -149,7 +151,7 @@ p{
 }
 
 .quotesection {
-	background-color: var(--green);
+	background-color: var(--orange);
 	margin-top: 1.25rem;
 	margin-bottom: 1.25rem;
 	padding: 1.25rem;
@@ -159,7 +161,7 @@ p{
 
 h6 {
 	background-color: var(--dark-gray);
-	color: var(--green);
+	color: var(--orange);
 	padding: 0.6rem;
 	font-size: 0.75rem;
 	margin-top: 1.9rem;
@@ -188,7 +190,7 @@ h6 {
 	width: calc(100vw);
 	margin-left: -2rem;
 	border-bottom: 1.5px solid: var(--dark-gray);
-	background-color: var(--green);
+	background-color: var(--orange);
 }
 
 .subtitle-text {
