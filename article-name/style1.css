@@ -2,6 +2,7 @@ body {
 	background-color: var(--light-gray);
 }
 
+/* top menu */
 .arrow-container {
 	font-weight: 200;
 	display: flex;

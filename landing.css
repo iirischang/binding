@@ -1,10 +1,8 @@
 body {
 	background-color: var(--light-gray);
 }
-input {
-	display: none;
-  }
 
+/* top menu */
 .arrow-container {
 	font-weight: 200;
 	display: flex;
