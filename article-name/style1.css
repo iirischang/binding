@@ -137,6 +137,7 @@ nav {
 }
 
 .slide {
+	margin-top: 0;
 	width:100%;
 	height:0px;
 	overflow: hidden;
@@ -161,7 +162,7 @@ nav {
 }    
 
 #touch:checked +.slide {
-	height: 10rem;
+	height: 17rem;
 } 
 
 .drop-items {
@@ -207,6 +208,7 @@ h4 {
 }
 
 .intro {
+	font-size: 0.9rem;
 	font-family: 'minion-pro';
 	font-style: italic;
 	margin-bottom: 1.25rem;
@@ -263,7 +265,7 @@ h2 {
 	top:0;
 	width: calc(100vw);
 	margin-left: -1.5rem;
-	border-bottom: 1.5px solid var(--dark-gray);
+	border-bottom: 1px solid var(--dark-gray);
 	background-color: var(--yellow);
 	padding-left: 0.2rem;
 }
