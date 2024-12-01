@@ -15,9 +15,9 @@
 }
 
 body{
-	margin-top: 1.8rem;
-	margin-left: 1.8rem;
-	margin-right: 1.8rem;
+	/* margin-top: 1.8rem; */
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
 	justify-content: center;
 	align-items: center;
 	overflow-x: hidden;
