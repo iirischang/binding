@@ -89,7 +89,7 @@ li:nth-child(1):hover {
 }
 
 li:nth-child(2):hover {
-	background-color: var(--blue);
+	background-color: var(--orange);
 }
 
 li:nth-child(3):hover {
@@ -106,7 +106,7 @@ li:nth-child(2):active {
 }
 
 li:nth-child(3):active {
-	background-color: var(--green);
+	background-color: var(--orange);
 }
 
 h1 {
@@ -152,7 +152,7 @@ h4 {
 
 p {
 	color: var(--dark-gray);
-	font-size: 0.9rem;
+	font-size: 1rem;
 	line-height: 1.4;
 	margin-bottom: 1.25rem;
 	margin-top: 1.25rem;
@@ -356,13 +356,36 @@ h6 {
 	color: var(--dark-gray);
 }
 
+.booktitles {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0.5rem;
+	margin-bottom: 2rem;
+}
+
+.book-question {
+	font-family: var(--font-narrow);
+	font-size: 2rem;
+}
+
+.titles {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background-color: var(--yellow);
+	font-family: var(--font-narrow);
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
 .statements {
 	background-color: var(--white);
 	color: var(--dark-gray);
-	font-family: 'mencken-std-head-narrow';
+	font-family: 'mencken-std';
 	padding: 1.6rem;
 	padding-left: 1.6rem;
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 
 .problems {

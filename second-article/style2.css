@@ -93,7 +93,7 @@ li:nth-child(2):hover {
 }
 
 li:nth-child(3):hover {
-	background-color: var(--green);
+	background-color: var(--orange);
 }
 
 /* Active */
@@ -106,7 +106,7 @@ li:nth-child(2):active {
 }
 
 li:nth-child(3):active {
-	background-color: var(--green);
+	background-color: var(--orange);
 }
 
 h1 {
