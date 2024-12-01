@@ -175,26 +175,33 @@ h3{
 
 .card-1 {
 	background-color: var(--orange);
-	transform: rotate(-15deg) translateY(50px);
-	z-index: 1;
-}
-
-.card-2 {
-	background-color: var(--yellow);
-	transform: rotate(20deg) translateY(-20px);
+	transform: rotate(-30deg) translateY(40px) translateX(-20px);
 	z-index: 2;
 }
 
-.card-3{
+.card-2 {
 	background-color: var(--blue);
-	transform: rotate(10deg) translateY(-10px);
+	transform: rotate(20deg) translateY(-20px);
 	z-index: 3;
 }
 
-.card-4{
-	background-color: var(--green);
-	transform: rotate(0deg) translateY(-10px);
+.card-3{
+	background-color: var(--yellow);
+	transform: rotate(-10deg) translateY(-10px);
 	z-index: 4;
+}
+
+.card-4{
+	background-color: var(--light-gray);
+	transform: rotate(0deg) translateY(-10px) translateX(10px);
+	z-index: 5;
+	margin-left: -0.2rem;
+}
+
+.card-5{
+	background-color: var(--green);
+	transform: rotate(-20deg) translateY(-100px);
+	z-index: 1;
 	margin-left: -0.2rem;
 }
 
@@ -241,7 +248,7 @@ h3{
 
 
 .footer {
-	font-size: 3.25rem;
+	font-size: 3rem;
 	font-family: 'mencken-std-head-compress';
 	text-transform: uppercase;
 	text-align: center;
@@ -254,11 +261,11 @@ h3{
 h4{
 	margin-top: 1.25rem;
 	padding: 0.3rem;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	color: var(--dark-gray);
 	background-color: var(--light-gray);
-	text-align: center;
+	text-align: left;
 	width: calc(100vw);
-	margin-left: -1.9rem;
+	font-variant-numeric: lining-nums;
 }
 
