@@ -249,7 +249,8 @@ h3{
 
 
 footer {
-	font-family: var(--font-narrow);
+	font-style: italic;
+	font-family: 'source-sans-pro';
 	background-color: var(--dark-gray);
 	color: var(--light-gray);
 	margin-top: 1.25rem;
@@ -261,11 +262,14 @@ footer {
 }
 
 .footer-left {
+	font-size: 1rem;
 	text-align: left;
 }
 
 .footer-right {
-	text-align: right;
+	font-size: 1rem;
+	float: right;
+	padding-right: 0.5rem;
 }
 
 

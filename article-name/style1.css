@@ -116,7 +116,7 @@ nav {
 .dropmenu {
 	font-family: var(--font-narrow);
 	padding: 0.5rem;
-	background : var(--light-gray); 
+	background-color : rgb(227, 237, 85, 0.2); 
 	color : var(--dark-gray);
 	font-size : 1.2em;
 	cursor : pointer;
@@ -182,8 +182,9 @@ h1 {
 }
 
 .author {
-	font-size: 4.4rem;
+	font-size: 4rem;
 	text-align: center;
+	border-bottom: 1px solid var(--dark-gray);
 }
 
 .title1 { 
@@ -497,14 +498,37 @@ h6 {
 }
 
 .ways {
-	position: sticky;
-	z-index: 1;
 	top: 2.5rem;
 	color: var(--light-gray);
-	font-family: 'mencken-std-head-narrow';
-	font-size: 1.25rem;
+	font-family: 'mencken-std';
+	font-size: 0.9rem;
 	text-align: center;
 	background-color: var(--dark-gray);
 	margin-top: 0.4rem;
 	margin-bottom: 0.4rem;
+	padding: 0.2rem;
+}
+
+footer {
+	font-style: italic;
+	font-family: 'source-sans-pro';
+	background-color: var(--dark-gray);
+	color: var(--light-gray);
+	margin-top: 1.25rem;
+	padding-left: 1rem;
+	font-size: 1.5rem;
+	width: calc(100vw);
+	margin-left: -1.5rem;
+	font-variant-numeric: lining-nums;
+}
+
+.footer-left {
+	font-size: 1rem;
+	text-align: left;
+}
+
+.footer-right {
+	font-size: 1rem;
+	float: right;
+	padding-right: 0.5rem;
 }
