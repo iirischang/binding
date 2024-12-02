@@ -1,5 +1,10 @@
 body {
 	background-color: var(--light-gray);
+	scroll-behavior: smooth;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 /* top menu */
@@ -88,11 +93,11 @@ li:nth-child(1):hover {
 }
 
 li:nth-child(2):hover {
-	background-color: var(--orange);
+	background-color: var(--blue);
 }
 
 li:nth-child(3):hover {
-	background-color: var(--green);
+	background-color: var(--orange);
 }
 
 /* Active */
