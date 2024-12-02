@@ -557,4 +557,5 @@ footer {
 
 .backtotop:hover {
 	background-color: var(--yellow);
+	color: var(--dark-gray);
 }
