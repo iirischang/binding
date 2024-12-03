@@ -321,13 +321,15 @@ footer {
 	padding-right: 0.5rem;
 }
 
-.backtotop {
+/* .backtotop {
 	--offset: 2rem; 
+	position: fixed;
 	float: right;
 	font-size: 1.2rem;
+	place-self: end;
 	text-transform: uppercase;
 	position: sticky;
-	bottom: 1rem;
+	bottom: 10rem;
 	margin-top: calc(100vh + var(--offset));
 	padding: 1rem;
 	font-family: var(--font-narrow);
@@ -335,9 +337,9 @@ footer {
 	background: var(--dark-gray);
 	color: var(--light-gray);
 	z-index: 99;
-	margin-right: -1.5rem;
-  }
+	margin-right: -0.7rem;
+}
 
 .backtotop:hover {
 	background-color: var(--blue);
-}
+} */

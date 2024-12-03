@@ -247,8 +247,8 @@ p{
 h6 {
 	background-color: var(--dark-gray);
 	color: var(--orange);
-	padding: 0.6rem;
-	font-size: 0.75rem;
+	padding: 0.8rem;
+	font-size: 0.9rem;
 	margin-top: 1.9rem;
 	margin-bottom: 1.9rem;
 	transform: rotate(2deg);
@@ -276,6 +276,7 @@ h6 {
 	margin-left: -1.5rem;
 	border-bottom: 1px solid var(--dark-gray);
 	background-color: var(--orange);
+	padding-left: 0.2rem;
 }
 
 .subtitle-text {
@@ -297,6 +298,22 @@ h6 {
 	text-align: left;
 	font-size: 3.5rem;
 	margin-bottom: 0.5rem;
+}
+
+.list {
+	font-family: var(--font-narrow);
+	text-transform: capitalize;
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+
+.question {
+	background-color: white;
+	color: var(--dark-gray);
+	font-style: italic;
+	padding: 1rem;
+	font-size: 0.9rem;
+	font-family:'typeka', sans-serif;
 }
 
 footer {
@@ -323,9 +340,9 @@ footer {
 	padding-right: 0.5rem;
 }
 
-.backtotop {
+/* .backtotop {
 	--offset: 2rem; 
-	position: fixed;
+	position: sticky;
 	float: right;
 	font-size: 1.2rem;
 	text-transform: uppercase;
@@ -343,4 +360,4 @@ footer {
 
 .backtotop:hover {
 	background-color: var(--orange);
-}
+} */
