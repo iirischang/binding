@@ -350,7 +350,7 @@ footer {
 	background-color: var(--orange);
 } */
 
-@media(min-width: 768px) {
+@media(min-width: 1200px) {
 
 .upline {
 	background-color: var(--dark-gray);
@@ -382,7 +382,7 @@ li {
 }
 
 #touch:checked +.slide {
-	height: 22rem;
+	height: 22.7rem;
 }
 
 /* article structure */

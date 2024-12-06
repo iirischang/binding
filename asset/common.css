@@ -67,3 +67,7 @@ p {
 	font-style: italic;
 	font-family: var(--font-quote);
 }
+
+.highlight-bold {
+	font-weight: bold;
+}

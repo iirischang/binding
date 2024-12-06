@@ -281,7 +281,7 @@ footer {
 /* All media queries */
 
 /* Desktop Media Query */
-@media(min-width:1280px) {
+@media(min-width: 1200px) {
 
 .arrow-container {
 font-weight: 200;

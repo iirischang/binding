@@ -553,7 +553,7 @@ footer {
 /* All media queries */
 
 /* Desktop Media Query */
-@media(min-width: 768px) {
+@media(min-width: 1200px) {
 
 .upline {
 	background-color: var(--dark-gray);
