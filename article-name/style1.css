@@ -598,4 +598,89 @@ li {
 	height: 22rem;
 } 
 
+.arrow-container {
+	font-weight: 200;
+	font-size: 2rem;
+	width: calc(100vw);
+	}
+
+.about {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border-bottom: 1px solid var(--dark-gray);
+}
+
+.author {
+	font-size: 3.5rem;
+	text-align: left;
+	border-bottom: none;
+}
+
+.year {
+	display: block;
+	font-size: 3.5rem;
+	text-align: right;
+	font-variant-numeric: lining-nums;
+}
+.bgcolor {
+	background-color: var(--yellow);
+}
+
+
+.article {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	gap: 2rem
+}
+
+.about {
+	border-bottom: 1px solid var(--dark-gray);
+}
+
+.title {
+	text-align: left;
+}
+
+.title1{
+	font-size: 12rem;
+	background-color: transparent;
+	text-align: left;
+}
+
+.title2{
+	font-size: 12rem;
+	text-align: left;
+}
+
+.intro {
+	grid-column: 1;
+	font-size: 1.1rem;
+	background-color: var(--yellow);
+	border: 1px solid var(--dark-gray);
+	padding: 2rem;
+	line-height: 1.5;
+}
+
+p {
+	grid-column: 2;
+	font-size: 1.1rem;
+	margin-right: 3rem;
+}
+
+.subtitle {
+	grid-column: 2;
+	font-size: 1.7rem;
+	width: 100%;
+}
+
+.subnumber {
+	padding-right: 2rem;
+	font-size: 1.7rem;
+}
+
+.quote, .quotesection, .feedback-section {
+	grid-column: 2;
+	margin-right: 3rem;
+}
+
 }
