@@ -308,11 +308,13 @@ footer {
 	color: var(--light-gray);
 	font-weight: 400;
 	margin-top: 1.25rem;
-	padding-left: 2rem;
+	padding-left: 0.7rem;
 	font-size: 1.5rem;
 	width: calc(100vw);
 	margin-left: -1.5rem;
 	font-variant-numeric: lining-nums;
+	height: 5%;
+	align-content: center;
 }
 
 .footer-left {
@@ -491,8 +493,9 @@ h6, .h6-2, .question {
 
 footer {
 	font-size: 1.8rem;
-	padding: 0.4rem;
+	padding: 0.7rem;
 	margin-top: -0.7rem;
+	height: 10%;
 }
 
 .footer-left, .footer-right {
