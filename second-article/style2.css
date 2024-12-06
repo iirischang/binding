@@ -388,7 +388,7 @@ li {
 	font-size: 8rem;
 	color: var(--blue);
 	-webkit-text-stroke: 1px var(--blue);
-	animation: textOutlineToFill 3s ease-in-out 2; 
+	animation: textOutlineToFill 3s ease-in-out 3; 
 	animation-fill-mode: forwards;
 }
 

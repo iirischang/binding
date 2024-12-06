@@ -518,7 +518,7 @@ footer {
 	padding-right: 0.5rem;
 }
 
-.backtotop {
+/* .backtotop {
 	--offset: 2rem; 
 	float: right;
 	font-size: 1.2rem;
@@ -538,7 +538,7 @@ footer {
 .backtotop:hover {
 	background-color: var(--yellow);
 	color: var(--dark-gray);
-}
+} */
 
 
 

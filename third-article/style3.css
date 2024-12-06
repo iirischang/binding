@@ -432,7 +432,7 @@ li {
 	font-size: 12rem;
 	background-color: transparent;
 	-webkit-text-stroke: 1px var(--orange);
-	animation: textOutlineToFill 3s ease-in-out 2; 
+	animation: textOutlineToFill 3s ease-in-out 3; 
 	animation-fill-mode: forwards;
 }
 
