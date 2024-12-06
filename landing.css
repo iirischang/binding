@@ -114,14 +114,15 @@ h2 {
 
 /* Overlap-cards */
 .overlap-cards {
+	margin-left: 1.25rem;
 	margin-top: 1.7rem;
 	position: relative;
-	width: 100vw;
+	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
 .card {
