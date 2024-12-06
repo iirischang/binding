@@ -18,7 +18,7 @@ body {
   }
 
 .topcontent-1 {
-	font-family: 'mencken-std-head-narrow';
+	font-family: var(--font-narrow);
 	font-size: 1.3rem;
 	text-align: left;
 	color: var(--dark-gray);
@@ -26,25 +26,26 @@ body {
   }
 
 .topcontent-2 {
-	font-family: 'mencken-std-head-narrow';
+	font-family: var(--font-narrow);
 	font-size: 1.3rem;
 	text-align: center;
 	color: var(--dark-gray);
 }
 
 .topcontent-3 {
-	font-family: 'mencken-std-head-narrow';
+	font-family: var(--font-narrow);
 	font-size: 1.3rem;
 	text-align: right;
 	color: var(--dark-gray);
 	font-variant-numeric: lining-nums;
 }
 
+/* Top-menu */
 li {
 	font-size: 1.2rem;
 	padding: 0.3rem;
 	text-align: center;
-	font-family: 'mencken-std-head-narrow';
+	font-family: var(--font-narrow);
 	text-transform: uppercase;
 	color: var(--dark-gray);
 	border-right: 1px solid var(--dark-gray);
@@ -65,7 +66,7 @@ li:last-child {
 	border-right: none;
 }
 
-/* Hover */
+/* Top-Menu-Hover */
 li:nth-child(1):hover {
 	background-color: var(--yellow);
 }
@@ -78,7 +79,7 @@ li:nth-child(3):hover {
 	background-color: var(--orange);
 }
 
-/* Active */
+/* Top-Menu-Active */
 li:nth-child(1):active {
 	background-color: var(--yellow);
 }
@@ -99,7 +100,6 @@ h1 {
 	line-height: 1;
 }
 
-
 .title1 {
 	font-size: 4rem;
 }
@@ -112,22 +112,16 @@ h2 {
 	margin-bottom: 1rem;
 }
 
-/* cards */
-
+/* Overlap-cards */
 .overlap-cards {
 	margin-top: 1.7rem;
-	margin-left: 1.25rem;
 	position: relative;
-	width: 100%;
+	width: 100vw;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* overflow-x: clip; */
-	/* margin-left: 0; */
-	/* margin-right: 0; */
-	/* margin-left: -1.1rem; */
-	
+	overflow-x: hidden;
 }
 
 .card {
@@ -139,16 +133,14 @@ h2 {
 	transition: all 0.3s ease;
 }
 
-/* card-hover, clicked */
-
+/* Card-hover, clicked */
 .card:hover, .card.clicked {
 	transform: scale(1.1) rotate(0deg) translateY(0);
 	z-index: 10;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* card design */
-
+/* Card design */
 h3{
 	font-size: 1.9rem;
 	text-align: center;
@@ -211,7 +203,6 @@ h3{
 	color: var(--dark-gray);
 }
 
-
 .card-text-2 {
 	font-size: 0.9rem;
 	font-family: var(--font-secondary);
@@ -227,8 +218,7 @@ h3{
 	padding-top: 0.7rem;
 }
 
-/* card read more */
-
+/* Card read more */
 .read-more {
 	font-family: 'mencken-std-head-compress';
 	display: inline-block;
@@ -249,7 +239,7 @@ h3{
 	padding-top: 0.6rem;
 }
 
-
+/* Footer */
 footer {
 	font-family: var(--font-secondary);
 	font-style: italic;
@@ -277,9 +267,13 @@ footer {
 	padding-right: 0.5rem;
 }
 
+@media only screen and (min-width: 600px) {
+	body {
+		overflow-x: hidden;
+	}
+}
 
-/* All media queries */
-
+/* Media Queries */
 /* Desktop Media Query */
 @media(min-width: 1200px) {
 
@@ -311,7 +305,7 @@ h1 {
 	font-size: 10rem;
 }
 
-/* cards */
+/* Overlap-cards */
 .overlap-cards {
 	display: flex;
 	margin-top: -5rem;
@@ -349,8 +343,7 @@ h1 {
 	transform: rotate(0deg) translateY(40px) translateX(500px) scale(1.1);
 	}
 
-/* card design */
-
+/* Card design */
 h3, .h3-2 {
 	font-size: 2rem;
 }
@@ -393,12 +386,12 @@ h3, .h3-2 {
 	font-size: 1rem;
 }
 
-/* card read more */
-
+/* Card read more */
 .read-more, .read-more-2 {
 	font-size: 2.3rem;
 }
 
+/* Footer */
 footer {
 	font-size: 1.8rem;
 	padding: 0.7rem;
@@ -408,5 +401,4 @@ footer {
 .footer-left, .footer-right {
 	font-size: 1.8rem;
 }
-
 }

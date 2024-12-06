@@ -44,6 +44,7 @@ html {
 	font-variant-numeric: lining-nums;
 }
 
+/* Top-menu */
 li {
 	font-size: 1.2rem;
 	padding: 0.3rem;
@@ -72,7 +73,7 @@ li:nth-child(1) {
 	background-color: var(--yellow);
 }
 
-/* Hover */
+/* Top-Menu-Hover */
 li:nth-child(1):hover {
 	background-color: var(--yellow);
 }
@@ -85,7 +86,7 @@ li:nth-child(3):hover {
 	background-color: var(--orange);
 }
 
-/* Active */
+/* Top-Menu-Active */
 li:nth-child(1):active {
 	background-color: var(--yellow);
 }
@@ -230,14 +231,6 @@ p {
 	line-height: 1.5rem;
 }
 
-.mark-1 {
-	display: none;
-}
-
-.mark-2 {
-	display: none;
-}
-
 h2 {
 	padding-top: 0.6rem;
 }
@@ -266,7 +259,6 @@ h2 {
 	padding-top: 0.6rem;
 	padding-left: 1.25rem;
 }
-
 
 .subnumber {
 	color: var(--dark-gray);
@@ -526,15 +518,15 @@ footer {
 	padding-right: 0.5rem;
 }
 
-/* .backtotop {
+.backtotop {
 	--offset: 2rem; 
-	position: fixed;
 	float: right;
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	position: sticky;
 	bottom: 10rem;
 	padding: 1rem;
+	margin-top: calc(100vh + var(--offset));
 	font-family: var(--font-narrow);
 	color: #fff;
 	background: var(--dark-gray);
@@ -546,12 +538,11 @@ footer {
 .backtotop:hover {
 	background-color: var(--yellow);
 	color: var(--dark-gray);
-} */
+}
 
 
 
-/* All media queries */
-
+/* All Media queries */
 /* Desktop Media Query */
 @media(min-width: 1200px) {
 
@@ -575,7 +566,7 @@ li {
 	padding: 0.3rem;
 }
 
-/* dropdown menu */
+/* Dropdown menu */
 .dropmenu {
 	font-size : 1.7em;
 }
@@ -592,8 +583,6 @@ li {
 .article-container {
 	display: grid;
 	grid-template-columns: 40% 60%;
-	/* gap: 2rem; */
-
 }
 
 .heading {
@@ -627,10 +616,9 @@ li {
 	text-align: left;
 	padding-top: 1rem;
 	background-color: transparent;
-	/* animation: highlightColorChange 2s linear 3; */
 	color: var(--yellow);
 	-webkit-text-stroke: 1px var(--yellow);
-	animation: textOutlineToFill 3s ease-in-out 2; 
+	animation: textOutlineToFill 3s ease-in-out 3; 
 	animation-fill-mode: forwards;
 }
 
@@ -703,20 +691,6 @@ h6, .h6-2, .ways {
 	font-size: 1.3rem;
 }
 
-/* @keyframes highlightColorChange {
-	0% {
-	  color: var(--dark-gray)
-	}
-
-	50% {
-	  color: var(--yellow)
-	}
-
-	100% {
-	  color: var(--dark-gray)
-	}
-  } */
-
 @keyframes textOutlineToFill {
 0% {
 	color: var(--yellow);
@@ -742,5 +716,4 @@ footer {
 .footer-left, .footer-right {
 	font-size: 1.8rem;
 }
-
 }

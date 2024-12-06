@@ -22,7 +22,6 @@ body{
 	margin-right: 1.5rem;
 	justify-content: center;
 	align-items: center;
-	overflow-x: hidden;
 }
 
 h1 {
@@ -70,4 +69,8 @@ p {
 
 .highlight-bold {
 	font-weight: bold;
+}
+
+.highlight-blue {
+	background-color : rgb(98, 168, 229, 0.5); 
 }
