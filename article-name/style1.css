@@ -7,6 +7,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+::selection {
+    background-color: var(--yellow); 
+    color: var(--dark-gray);
+}
+
 .upline {
 	background-color: var(--dark-gray);
 	height: 2rem;

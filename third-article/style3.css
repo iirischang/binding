@@ -6,6 +6,12 @@ body {
 html {
 	scroll-behavior: smooth;
 }
+
+::selection {
+    background-color: var(--orange); 
+    color: var(--dark-gray);
+}
+
 h1 {
 	text-align: center;
 	color: var(--dark-gray);

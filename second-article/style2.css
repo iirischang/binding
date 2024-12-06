@@ -7,6 +7,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+::selection {
+    background-color: var(--blue); 
+    color: var(--dark-gray);
+}
+
 .upline {
 	background-color: var(--dark-gray);
 	height: 2rem;
@@ -198,10 +203,10 @@ h2 {
 	text-transform: uppercase;
 	display: grid;
 	grid-template-columns: auto;
-	/* gap: 1rem; */
 	text-align: center;
 	font-size: 6rem;
 	line-height: 1;
+	margin-bottom: 1rem;
 }
 
 .highlight {
@@ -214,7 +219,7 @@ h2 {
 	font-family: 'minion-pro';
 	font-style: italic;
 	margin-bottom: 1.25rem;
-	margin-top: 1.25rem;
+	margin-top: 1.5rem;
 	text-align: center;
 }
 
